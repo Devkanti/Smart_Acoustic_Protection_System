@@ -45,27 +45,6 @@ Unlike conventional continuous jamming techniques, this adaptive approach signif
 
 ---
 
-## 🧠 Working Principle
-
-The system follows a continuous monitoring and adaptive response loop:
-
-```mermaid
-graph TD
-    A[🎙️ Microphone] -->|Captures Audio| B[⚙️ DSP]
-    B -->|Extracts Features| C{🧠 TinyML Classifier}
-    
-    C -->|Speech Detected| D[🔊 Activate Ultrasonic Masking]
-    D --> E[💡 LED ON & OLED: 'Speech Detected']
-    
-    C -->|Background Noise| F[🔇 Masking OFF]
-    F --> G[💡 LED OFF & OLED: 'Silent']
-    
-    E -.->|Loop| A
-    G -.->|Loop| A
-```
-
----
-
 ## 💻 Technologies Used
 
 | Category | Technologies |
