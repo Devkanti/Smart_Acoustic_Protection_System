@@ -1,0 +1,39 @@
+# Build and Output Folders
+build/
+Debug/
+Release/
+*.hex
+*.elf
+*.bin
+*.a
+*.o
+
+# IDE and Project Files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# Temporary and Log Files
+*.tmp
+*.log
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large Datasets and Cache
+*.cache
+dataset/
+*.dat
+
+# Secrets and Personal Information
+.env
+secrets.h
+config.h
+keys.h
+credentials.json
